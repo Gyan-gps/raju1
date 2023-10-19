@@ -1,0 +1,22 @@
+.home .category {
+  display: flex;
+  gap: 20px;
+  background-color: green;
+  color: #fff;
+  padding-left: 20px;
+}
+.category > div {
+  padding: 10px 5px;
+  cursor: pointer;
+}
+
+.list {
+  padding-left: 20px;
+  font-family: sans-serif;
+  /* text-align: center; */
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
